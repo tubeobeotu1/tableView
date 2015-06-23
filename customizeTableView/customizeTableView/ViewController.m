@@ -16,13 +16,7 @@ static NSString *TableViewCellIdentifier = @"MyCells";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.myTableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
-//    [self.myTableView registerClass:[UITableViewCell class]
-//              forCellReuseIdentifier:TableViewCellIdentifier];
-//    self.myTableView.dataSource=self;
-//    
-//    self.myTableView.autoresizingMask=UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
-//    [self.view addSubview:self.myTableView];
+ [self.view addSubview:self.myTableView];
     
     
     //attention
@@ -31,8 +25,12 @@ static NSString *TableViewCellIdentifier = @"MyCells";
                         style:UITableViewStylePlain];
     [self.myTableView registerClass:[UITableViewCell class]
              forCellReuseIdentifier:TableViewCellIdentifier];
+    
+    
     self.myTableView.delegate=self;
     self.myTableView.dataSource = self;
+    
+    
     self.myTableView.autoresizingMask =
     UIViewAutoresizingFlexibleWidth |
     UIViewAutoresizingFlexibleHeight;
@@ -47,40 +45,7 @@ static NSString *TableViewCellIdentifier = @"MyCells";
     }
     return 0;
 }
-//- (NSInteger)tableView:(UITableView *)tableView
-// numberOfRowsInSection:(NSInteger)section{
-//    if ([tableView isEqual:self.myTableView]){
-//        switch (section){
-//            case 0:{
-//                return 2;
-//                break;
-//            }
-//            case 1:{
-//                return 8;
-//                break;
-//            }
-//            case 2:{
-//                return 8;
-//                break;
-//            }
-//        }
-//    }
-//    return 0;
-//}
-//- (UITableViewCell *) tableView:(UITableView *)tableView
-//          cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    UITableViewCell *cell = nil;
-//    if ([tableView isEqual:self.myTableView]){
-//        cell = [tableView
-//                dequeueReusableCellWithIdentifier:TableViewCellIdentifier
-//                forIndexPath:indexPath];
-//        cell.textLabel.text = [NSString stringWithFormat:
-//                               @"Section %ld, Row %ld",
-//                               (long)indexPath.section,
-//                               (long)indexPath.row];
-//    }
-//    return cell;
-//}
+
 
 
 //cell
