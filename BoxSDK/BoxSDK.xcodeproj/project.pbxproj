@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860CF6513765D7A86502664B /* libPods-BoxSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D547DA750C0697CF4243FD85 /* libPods-BoxSDK.a */; };
+		BE3CF0591B37EC3000E5B98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CF0581B37EC3000E5B98C /* main.m */; };
+		BE3CF05C1B37EC3000E5B98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CF05B1B37EC3000E5B98C /* AppDelegate.m */; };
+		BE3CF05F1B37EC3000E5B98C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CF05E1B37EC3000E5B98C /* ViewController.m */; };
+		BE3CF0621B37EC3000E5B98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF0601B37EC3000E5B98C /* Main.storyboard */; };
+		BE3CF0641B37EC3000E5B98C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF0631B37EC3000E5B98C /* Images.xcassets */; };
+		BE3CF0671B37EC3000E5B98C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF0651B37EC3000E5B98C /* LaunchScreen.xib */; };
+		BE3CF0731B37EC3000E5B98C /* BoxSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3CF0721B37EC3000E5B98C /* BoxSDKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3CF06D1B37EC3000E5B98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3CF04B1B37EC3000E5B98C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3CF0521B37EC3000E5B98C;
+			remoteInfo = BoxSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D4A1D6BC97E0175440FD127 /* Pods-BoxSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoxSDK/Pods-BoxSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		8EAE66918A133E03E87DE14C /* Pods-BoxSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoxSDK/Pods-BoxSDK.release.xcconfig"; sourceTree = "<group>"; };
+		BE3CF0531B37EC3000E5B98C /* BoxSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3CF0571B37EC3000E5B98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3CF0581B37EC3000E5B98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE3CF05A1B37EC3000E5B98C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE3CF05B1B37EC3000E5B98C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE3CF05D1B37EC3000E5B98C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE3CF05E1B37EC3000E5B98C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE3CF0611B37EC3000E5B98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3CF0631B37EC3000E5B98C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE3CF0661B37EC3000E5B98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE3CF06C1B37EC3000E5B98C /* BoxSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3CF0711B37EC3000E5B98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3CF0721B37EC3000E5B98C /* BoxSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxSDKTests.m; sourceTree = "<group>"; };
+		BE3CF07D1B37EEDD00E5B98C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D547DA750C0697CF4243FD85 /* libPods-BoxSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoxSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3CF0501B37EC3000E5B98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860CF6513765D7A86502664B /* libPods-BoxSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3CF0691B37EC3000E5B98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5841F49F2CD8339FA8199304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D547DA750C0697CF4243FD85 /* libPods-BoxSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3CF04A1B37EC3000E5B98C = {
+			isa = PBXGroup;
+			children = (
+				BE3CF0551B37EC3000E5B98C /* BoxSDK */,
+				BE3CF06F1B37EC3000E5B98C /* BoxSDKTests */,
+				BE3CF0541B37EC3000E5B98C /* Products */,
+				D900567C646EC1599223024D /* Pods */,
+				5841F49F2CD8339FA8199304 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3CF0541B37EC3000E5B98C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF0531B37EC3000E5B98C /* BoxSDK.app */,
+				BE3CF06C1B37EC3000E5B98C /* BoxSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3CF0551B37EC3000E5B98C /* BoxSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF05A1B37EC3000E5B98C /* AppDelegate.h */,
+				BE3CF05B1B37EC3000E5B98C /* AppDelegate.m */,
+				BE3CF05D1B37EC3000E5B98C /* ViewController.h */,
+				BE3CF05E1B37EC3000E5B98C /* ViewController.m */,
+				BE3CF0601B37EC3000E5B98C /* Main.storyboard */,
+				BE3CF0631B37EC3000E5B98C /* Images.xcassets */,
+				BE3CF0651B37EC3000E5B98C /* LaunchScreen.xib */,
+				BE3CF0561B37EC3000E5B98C /* Supporting Files */,
+			);
+			path = BoxSDK;
+			sourceTree = "<group>";
+		};
+		BE3CF0561B37EC3000E5B98C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF0571B37EC3000E5B98C /* Info.plist */,
+				BE3CF0581B37EC3000E5B98C /* main.m */,
+				BE3CF07D1B37EEDD00E5B98C /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE3CF06F1B37EC3000E5B98C /* BoxSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF0721B37EC3000E5B98C /* BoxSDKTests.m */,
+				BE3CF0701B37EC3000E5B98C /* Supporting Files */,
+			);
+			path = BoxSDKTests;
+			sourceTree = "<group>";
+		};
+		BE3CF0701B37EC3000E5B98C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF0711B37EC3000E5B98C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D900567C646EC1599223024D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D4A1D6BC97E0175440FD127 /* Pods-BoxSDK.debug.xcconfig */,
+				8EAE66918A133E03E87DE14C /* Pods-BoxSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3CF0521B37EC3000E5B98C /* BoxSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3CF0761B37EC3000E5B98C /* Build configuration list for PBXNativeTarget "BoxSDK" */;
+			buildPhases = (
+				76F818706290A7E43BED187C /* Check Pods Manifest.lock */,
+				BE3CF04F1B37EC3000E5B98C /* Sources */,
+				BE3CF0501B37EC3000E5B98C /* Frameworks */,
+				BE3CF0511B37EC3000E5B98C /* Resources */,
+				4110961D747EFEF0ECC99F63 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxSDK;
+			productName = BoxSDK;
+			productReference = BE3CF0531B37EC3000E5B98C /* BoxSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3CF06B1B37EC3000E5B98C /* BoxSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3CF0791B37EC3000E5B98C /* Build configuration list for PBXNativeTarget "BoxSDKTests" */;
+			buildPhases = (
+				BE3CF0681B37EC3000E5B98C /* Sources */,
+				BE3CF0691B37EC3000E5B98C /* Frameworks */,
+				BE3CF06A1B37EC3000E5B98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3CF06E1B37EC3000E5B98C /* PBXTargetDependency */,
+			);
+			name = BoxSDKTests;
+			productName = BoxSDKTests;
+			productReference = BE3CF06C1B37EC3000E5B98C /* BoxSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3CF04B1B37EC3000E5B98C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tunguyen;
+				TargetAttributes = {
+					BE3CF0521B37EC3000E5B98C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BE3CF06B1B37EC3000E5B98C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BE3CF0521B37EC3000E5B98C;
+					};
+				};
+			};
+			buildConfigurationList = BE3CF04E1B37EC3000E5B98C /* Build configuration list for PBXProject "BoxSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3CF04A1B37EC3000E5B98C;
+			productRefGroup = BE3CF0541B37EC3000E5B98C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3CF0521B37EC3000E5B98C /* BoxSDK */,
+				BE3CF06B1B37EC3000E5B98C /* BoxSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3CF0511B37EC3000E5B98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3CF0621B37EC3000E5B98C /* Main.storyboard in Resources */,
+				BE3CF0671B37EC3000E5B98C /* LaunchScreen.xib in Resources */,
+				BE3CF0641B37EC3000E5B98C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3CF06A1B37EC3000E5B98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4110961D747EFEF0ECC99F63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoxSDK/Pods-BoxSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F818706290A7E43BED187C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3CF04F1B37EC3000E5B98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3CF05F1B37EC3000E5B98C /* ViewController.m in Sources */,
+				BE3CF05C1B37EC3000E5B98C /* AppDelegate.m in Sources */,
+				BE3CF0591B37EC3000E5B98C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3CF0681B37EC3000E5B98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3CF0731B37EC3000E5B98C /* BoxSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3CF06E1B37EC3000E5B98C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3CF0521B37EC3000E5B98C /* BoxSDK */;
+			targetProxy = BE3CF06D1B37EC3000E5B98C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE3CF0601B37EC3000E5B98C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3CF0611B37EC3000E5B98C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3CF0651B37EC3000E5B98C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3CF0661B37EC3000E5B98C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3CF0741B37EC3000E5B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE3CF0751B37EC3000E5B98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3CF0771B37EC3000E5B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4A1D6BC97E0175440FD127 /* Pods-BoxSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/tunguyen/Desktop/trainning/BoxSDK/BoxSDK/PrefixHeader.pch;
+				INFOPLIST_FILE = BoxSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE3CF0781B37EC3000E5B98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAE66918A133E03E87DE14C /* Pods-BoxSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/tunguyen/Desktop/trainning/BoxSDK/BoxSDK/PrefixHeader.pch;
+				INFOPLIST_FILE = BoxSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE3CF07A1B37EC3000E5B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoxSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxSDK.app/BoxSDK";
+			};
+			name = Debug;
+		};
+		BE3CF07B1B37EC3000E5B98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoxSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxSDK.app/BoxSDK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3CF04E1B37EC3000E5B98C /* Build configuration list for PBXProject "BoxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3CF0741B37EC3000E5B98C /* Debug */,
+				BE3CF0751B37EC3000E5B98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3CF0761B37EC3000E5B98C /* Build configuration list for PBXNativeTarget "BoxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3CF0771B37EC3000E5B98C /* Debug */,
+				BE3CF0781B37EC3000E5B98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3CF0791B37EC3000E5B98C /* Build configuration list for PBXNativeTarget "BoxSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3CF07A1B37EC3000E5B98C /* Debug */,
+				BE3CF07B1B37EC3000E5B98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3CF04B1B37EC3000E5B98C /* Project object */;
+}

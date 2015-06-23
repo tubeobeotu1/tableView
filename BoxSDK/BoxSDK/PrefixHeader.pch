@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  BoxSDK
+//
+//  Created by tunguyen on 6/22/15.
+//  Copyright (c) 2015 tunguyen. All rights reserved.
+//
+
+#ifndef BoxSDK_PrefixHeader_pch
+#define BoxSDK_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+#ifdef __OBJC__
+#import <BoxContentSDK/BOXContentSDK.h>
+
+
+#endif
