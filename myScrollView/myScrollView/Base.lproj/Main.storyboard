@@ -99,9 +99,20 @@
                     <view key="view" contentMode="scaleToFill" id="E2i-3K-f3K">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fc-Fh-axC">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <connections>
+                                    <outlet property="delegate" destination="FIF-V3-jeD" id="N1X-iH-979"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ew3-33-gBS"/>
+                    <connections>
+                        <outlet property="scrollView" destination="6fc-Fh-axC" id="SJk-8V-rju"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRP-RP-8MK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
